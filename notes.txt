@@ -1,0 +1,29 @@
+2 tabs 
+background 
+contact us 
+
+make it clear that every little needs a big 
+the algorithm is coded to prefer littles -- while bigs, as more senior members, are able to handle it, littles may not 
+both lists must be full
+
+list of bigs (no duplicates)
+list of littles (no duplicates)
+
+are any bigs looking to pick up more than 1 little?
+yes/no 
+
+same number of bigs as littles 
+- would you rather have some bigs go unmatched while others get multiples OR have all bigs get a little? 
+(note that the second option increases the chances of littles being paired with bigs they like less)
+- if first, go to more; else run regular gale shapley 
+
+more bigs than littles 
+- would you rather have some bigs go unmatched while others get multiples OR have as many bigs as possible get a little? 
+(note that the second option increases the chances of littles being paired with bigs they like less)
+- if first, have bigs accept and accept again and run it; else run it regular 
+
+more littles than bigs 
+- first check that there are enough bigs with multiples to give every little a big (if not, error!)
+-> if there are, direct to above two cases 
+
+
